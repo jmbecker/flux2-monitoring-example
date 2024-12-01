@@ -12,7 +12,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami
-        namespace: nginx
       interval: 12h
   values:
     controller:
